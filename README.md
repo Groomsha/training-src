@@ -1,1 +1,1 @@
-# training-src
+# Python - PyQT5
