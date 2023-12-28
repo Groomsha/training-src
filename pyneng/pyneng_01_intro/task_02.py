@@ -11,5 +11,6 @@ Python is a high-level interpreted general-purpose programming language
 При цьому не можна змінювати рядок start_data вручну, тільки за допомогою Python.
 """
 start_data = "Python is a high-level, interpreted, general-purpose programming language."
+start_data = start_data.replace(",", "").replace(".", "")
 print(start_data)
 
