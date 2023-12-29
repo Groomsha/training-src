@@ -32,3 +32,13 @@ $ python task_07.py
 У списку words немає такого індексу
 """
 words = ["word1", "word2", "word3"]
+target: int = int(input("Введіть індекс: "))
+
+if target == 0 or target == -3:
+    print(words[0])
+elif target == 1 or target == -2:
+    print(words[1])
+elif target == 2 or target == -1:
+    print(words[2])
+else:
+    print("У списку words немає такого індексу")
