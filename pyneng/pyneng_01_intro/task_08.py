@@ -23,5 +23,6 @@ script.pyz
 filename = "script"
 python_extensions = ['.py', '.pyi', '.pyc', '.pyd', '.pyw', '.pyz']
 for ext in python_extensions:
+    ext = f"{filename}{ext}"
     print(ext)
 
